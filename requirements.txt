@@ -1,0 +1,10 @@
+distlib==0.3.4
+filelock==3.6.0
+platformdirs==2.5.1
+psycopg2==2.9.3
+psycopg2-binary==2.9.3
+robotframework==4.1.3
+robotframework-databaselibrary==1.2.4
+robotframework-postgresqldb==2.0.0
+six==1.16.0
+virtualenv==20.13.2
