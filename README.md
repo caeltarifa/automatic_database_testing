@@ -5,7 +5,7 @@ Robotic process automation of database postgresql with robot framework
 
 ### Docker compose to postgres database server 
   docker run 
-    --name myPostgresDb 
+    --name cael-psql 
     -p 5455:5432 
     -e POSTGRES_USER=postgresUser 
     -e POSTGRES_PASSWORD=postgresPW 
