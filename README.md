@@ -29,8 +29,8 @@ Robotic process automation of database postgresql with robot framework
     
   ```bash
   # docker run -p 80:80 \
-  # -e "PGADMIN_DEFAULT_EMAIL=user@domain.com" \
-  # -e "PGADMIN_DEFAULT_PASSWORD=SuperSecret" \
+  # -e "PGADMIN_DEFAULT_EMAIL=admin@admin.com" \
+  # -e "PGADMIN_DEFAULT_PASSWORD=1234" \
   # -d dpage/pgadmin4
   ```
   
