@@ -23,19 +23,15 @@ Robotic process automation of database postgresql with robot framework
     postgres
 ### Docker conainer to pgadmin4
   
-  docker pull dpage/pgadmin4 
-  
-  docker run -p 80:80 \
-  -e "PGADMIN_DEFAULT_EMAIL=user@domain.com" \
-  -e "PGADMIN_DEFAULT_PASSWORD=SuperSecret" \
-  -d dpage/pgadmin4
-  
   ```bash
-  # while build failed with this problem:
-  # Cause: delight/rhinosandox/RhinoSandboxes
-  # Try run the command in terminal:
-
-  gradlew clean assemble -stacktrace
+  # docker pull dpage/pgadmin4 
+  ```
+    
+  ```bash
+  # docker run -p 80:80 \
+  # -e "PGADMIN_DEFAULT_EMAIL=user@domain.com" \
+  # -e "PGADMIN_DEFAULT_PASSWORD=SuperSecret" \
+  # -d dpage/pgadmin4
   ```
   
 ### Docker compose to robot framework
