@@ -4,6 +4,8 @@ Robotic process automation of database postgresql with robot framework
 ## Make running? 
 
 ### Requirements
+  
+  - Docker
   - Python
   - Postgres
   - PGAdmin4 (optional)
@@ -12,7 +14,11 @@ Robotic process automation of database postgresql with robot framework
   - robotframework-databaselibrary
   - robotframework-postgresqldb
 
-### Docker compose to postgres database server 
+### Method 1
+#### Docker container to postgres database server 
+  ```bash
+  # docker pull postgres 
+  ```  
   ```bash
   # docker run 
   #   --name cael-psql 
@@ -23,7 +29,7 @@ Robotic process automation of database postgresql with robot framework
   #   -d 
   #   postgres
   ```
-### Docker conainer to pgadmin4
+#### Docker conainer to pgadmin4
   ```bash
   # docker pull dpage/pgadmin4 
   ```
@@ -33,5 +39,9 @@ Robotic process automation of database postgresql with robot framework
   # -e "PGADMIN_DEFAULT_PASSWORD=1234" \
   # -d dpage/pgadmin4
   ```
-  
+### Method 2
+```bash
+  # cd server_compose
+  # docker compose up
+  ```
 ### Docker compose to robot framework
