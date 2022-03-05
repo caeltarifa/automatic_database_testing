@@ -27,3 +27,8 @@ Inserting Data in person Table
 	${output}= Execute SQL String Insert into person values (100, "jhon");
 	Log to console ${output}
 	Should Be Equal as strings ${output}	None
+
+Inserting Data in person Table 
+	${output}= Execute SQL Script ./sql_script.sql
+	log to console ${output}
+	should be equal as strings ${output}	None
