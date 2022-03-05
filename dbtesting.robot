@@ -22,3 +22,8 @@ Create person table
     ${output}=  Execute SQL String  Create table if not exists person( id integer, first_name varchar(20), last_name varchar(20) );
     Log to console     ${output}
     Should Be Equal as strings  ${output}   None
+
+Inserting Data in person Table 
+	${output}= Execute SQL String Insert into person values (100, "jhon");
+	Log to console ${output}
+	Should Be Equal as strings ${output}	None
