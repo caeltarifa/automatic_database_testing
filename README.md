@@ -44,4 +44,14 @@ Robotic process automation of database postgresql with robot framework
   # cd server_compose
   # docker compose up
   ```
-### Docker compose to robot framework
+### Docker container for robot framework
+ 
+```bash
+  # cd robot-container
+  # docker build -f ./Dockerfile -t robot .
+  ```
+  
+  ```bash
+  # docker-compose up 
+  ```
+  
