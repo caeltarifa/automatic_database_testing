@@ -40,18 +40,19 @@ Robotic process automation of database postgresql with robot framework
   # -d dpage/pgadmin4
   ```
 ### Method 2
-```bash
+  ```bash
   # cd server_compose
   # docker compose up
   ```
 ### Docker container for robot framework
  
-```bash
+  ```bash
   # cd robot-container
   # docker build -f ./Dockerfile -t robot .
   ```
   
   ```bash
+  # chmod +x scripts/run_suite.sh
   # docker-compose up 
   ```
   
