@@ -39,9 +39,20 @@ Robotic process automation of database postgresql with robot framework
   # -e "PGADMIN_DEFAULT_PASSWORD=1234" \
   # -d dpage/pgadmin4
   ```
-### Method 2
-```bash
+### Method 2: Docker conainer to pgadmin4 and postgres
+  ```bash
   # cd server_compose
   # docker compose up
   ```
-### Docker compose to robot framework
+### Docker container for robot framework
+ 
+  ```bash
+  # cd robot-container
+  # docker build -f ./Dockerfile -t robot .
+  ```
+  
+  ```bash
+  # chmod +x scripts/run_suite.sh
+  # docker-compose up 
+  ```
+  
