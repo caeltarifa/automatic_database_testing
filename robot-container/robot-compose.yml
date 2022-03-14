@@ -2,14 +2,12 @@ version: '3.3'
 services:
     test:
         network_mode: host
-        image: ypasmk/robot-framework
+        image: robot
         shm_size: "256M"
         environment:
-            USERNAME: Ipatios Asmanidis
+            USERNAME: cael
         volumes: [
-           "$PWD/output:/output",
            "$PWD/suites:/suites",
            "$PWD/scripts:/scripts",
            "$PWD/reports:/reports"
         ]
-
