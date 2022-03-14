@@ -1,4 +1,11 @@
 # automatic_database_testing
+
+** ADMIRATION FOR THE UNKNOW **
+
+web testing with robot automatic tests: many cases
+=======================================================
+Before, Keep your motivation and excitement level high!
+
 Robotic process automation of database postgresql with robot framework
 
 ## Make running? 
@@ -56,3 +63,6 @@ Robotic process automation of database postgresql with robot framework
   # docker-compose up 
   ```
   
+
+
+**PASSION FOR DISCOVERY**
