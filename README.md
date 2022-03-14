@@ -42,7 +42,7 @@ Robotic process automation of database postgresql with robot framework
 ### Method 2: Docker conainer to pgadmin4 and postgres
   ```bash
   # cd server_compose
-  # docker compose up
+  # docker-compose up
   ```
 ### Docker container for robot framework
  
